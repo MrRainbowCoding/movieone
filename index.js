@@ -2,8 +2,6 @@ const express = require('express');
 const fs = require('fs');
 const path = require('path');
 
-// Load environment variables from .env file
-
 
 const app = express();
 
