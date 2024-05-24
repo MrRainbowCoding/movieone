@@ -9,13 +9,15 @@
         <nav>
             <a href="/">MovieOne</a>
             <ul class="list">
-                <li><a onclick="test('1')">Google</a></li>
-                <li><a onclick="test('2')">SudoFlix</a></li>
+                <li><a onclick="frameRdir('google')">Google</a></li>
+                <li><a onclick="frameRdir('sf')">SudoFlix</a></li>
             </ul>
             <button class="search">Search</button>
         </nav>
     </div>
-    <iframe id="frame" class="mainFrame"></iframe>
+    <div id="content">
+        <iframe width="100%" height="100%" frameborder="0" id="contentFrame"></iframe>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>

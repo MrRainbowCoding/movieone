@@ -1,3 +1,6 @@
+const contentFrame = document.getElementById('contentFrame')
+
+
 function test(num) {
     if (num === '1') {
         window.alert('1 Works')
@@ -7,3 +10,12 @@ function test(num) {
         }
     }
 }
+
+function frameRdir(name) {
+    if (name === 'sf') {
+        contentFrame.src = 'https://sudo-flix.lol'
+    }
+    if (name === 'google') {
+        contentFrame.src = 'https://google.com'
+    }
+    }
