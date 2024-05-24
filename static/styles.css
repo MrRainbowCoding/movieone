@@ -30,4 +30,32 @@
     margin-left: 20px;
   }
   
+
+  .content {
+    padding: 20px;
+    margin-top: 70px;
+    /* Adjust based on your navbar height */
+  }
+  
+  .search,
+  .menu {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .search::before {
+    content: '🔍';
+    /* Add your search icon here */
+    margin-right: 5px;
+  }
+  
+  .menu::before {
+    content: '☰';
+    /* Add your menu icon here */
+    margin-right: 5px;
+  }
+  
   
