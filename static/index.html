@@ -1,10 +1,21 @@
+<!DOCTYPE html>
 <html>
 <head>
-<title>MovieOne</title>
-<link rel="stylesheet" href="styles.css">
+    <title>MovieOne</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<button>Google</button><br><button>Sudo Flix</button>
-<iframe id='frame' class='mainFrame'>
+    <div class="navSection">
+        <nav>
+            <a href="/">MovieOne</a>
+            <ul class="list">
+                <li><a onclick="test('1')">Google</a></li>
+                <li><a onclick="test('2')">SudoFlix</a></li>
+            </ul>
+            <button class="search">Search</button>
+        </nav>
+    </div>
+    <iframe id="frame" class="mainFrame"></iframe>
+    <script src="script.js"></script>
 </body>
 </html>

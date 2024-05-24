@@ -3,3 +3,31 @@
     height: 80%;
     width: 100%
 }
+
+.navSection {
+    background-color: darkblue;
+    padding: 16px;
+  }
+  
+  .navSection nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+  }
+  
+  .navSection a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .navSection ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .navSection li {
+    margin-left: 20px;
+  }
+  
+  
